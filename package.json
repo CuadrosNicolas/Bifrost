@@ -1,0 +1,23 @@
+{
+  "name": "bifrost",
+  "productName" : "bifrost",
+  "version": "0.1.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --allow-file-access-from-files",
+    "build" : "electron-packager . bifrost --overwrite"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Nicolas Cuadros",
+  "devDependencies": {
+    "electron": "^4.0.3",
+    "electron-packager": "^13.0.1"
+  },
+  "dependencies": {
+    "asar": "^0.14.6"
+  }
+}

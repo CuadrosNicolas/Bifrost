@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>D-BOPP</title>
+  </head>
+  <body>
+    <div class = "content">
+      <div id="console">
+        <textarea rows="10" id="history" readonly></textarea>
+        <div id="entry">
+        <i id="currentDir">>></i>
+        <input type="text" id="textentry" ></input>
+        </div>
+      </div>
+      <div id="Begin">
+      </div>
+    </div>
+    <script>
+      var link = document.createElement('link')
+      link.setAttribute('rel', 'stylesheet')
+      link.setAttribute('href', require('path').join(__dirname, 'style.css'))
+      document.head.appendChild(link)
+    </script>
+    <script src="page.js"></script>
+  </body>
+</html>
